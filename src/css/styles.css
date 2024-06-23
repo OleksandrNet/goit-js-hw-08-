@@ -20,3 +20,36 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 24px;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+.gallery-item {
+}
+
+.gallery-image {
+  display: flex;
+  width: 360px;
+  height: auto;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+label {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
